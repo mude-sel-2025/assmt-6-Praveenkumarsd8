@@ -78,3 +78,9 @@ if __name__ == "__main__":
     confidence_interval()
 
     plt.show() # do not comment this out
+
+
+    ## COMMENT :
+    # The frequency with which the true mean falls outside a confidence interval (CI) depends on the confidence level of the interval we construct.
+   # Probability = 1- confidence level 
+   # for this problem we have taken 95% CI and by our solution we can see that true mean of 2 samples falls out of 95% CI from 40 samples considered which is 5% of total samples. 
